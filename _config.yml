@@ -1,0 +1,12 @@
+name: 'Squared Suppliers' 
+markdown: kramdown
+highligther: pygments
+timezone: CST
+exclude: ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 's3_website.yml']
+relative_permalinks: false
+url: https://www.SquaredSuppliers.com
+author: 'Jordan Beacham'
+gems:
+    - jekyll-feed
+sass:
+  style: compressed
