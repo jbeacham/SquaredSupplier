@@ -6,7 +6,11 @@ exclude: ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 
 relative_permalinks: false
 url: https://www.SquaredSuppliers.com
 author: 'Jordan Beacham'
+api_key: OTE4NmJjMzMtMjRlMy00NzE5LTgzOGQtMWU4YzAwNDBiZWQzNjM2NDE3MjAyNDYzMDE4MTQ0
 gems:
     - jekyll-feed
 sass:
   style: compressed
+collections:
+  products:
+    output: true

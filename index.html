@@ -1,3 +1,15 @@
-<html>
-  <h1>Coming Soon!</h1>
-</html>
+---
+layout: default
+title: Squared Supplier
+---
+
+<article class="alpha post">
+  <header class="post-header">
+    <h1 class="text-center">Products</h1>
+  </header>
+  <ul class="posts">
+    {% for product in site.products %}
+      {% include product.html %}
+    {% endfor %}
+  </ul>
+</article>
