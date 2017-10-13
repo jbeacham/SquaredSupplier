@@ -1,0 +1,16 @@
+
+<a href="{{ site.baseurl }}{{ product.url }}">
+    <div class="card clickable-card h-100">
+        <img class="card-img-top" src={{product.smallimageurl}} alt="">
+        <div class="card-body">
+        <h4 class="card-title">
+            <a href="#">{{product.name}}</a>
+        </h4>
+        <h5>${{product.price}}</h5>
+        <p class="card-text">{{product.description}}</p>
+        </div>
+        <div class="card-footer">
+        <!-- <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> -->
+        </div>
+    </div>
+</a>
